@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Office" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/office" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FirstName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LastName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:id="@+id/lname"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Client or Business" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:id="@+id/cbname"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="External Id" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:id="@+id/externalid"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Joining Date" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:id="@+id/joiningdate"/>
+
+        
+        
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/registerBtn"
+            android:text="Register" />
+    </LinearLayout>
+
+</ScrollView>
